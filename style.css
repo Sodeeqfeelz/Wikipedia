@@ -8,12 +8,32 @@ section {
 }
 #head {
     text-align: center;
-    position: relative;
-    top: 50px;
+    margin-top: 50px;
 }
 #head1 {
     font-size: 25px;
 }
 .big {
     font-size: 37px;
+}
+.round {
+    border: 1px solid blue;
+    margin-top: 20px;
+    text-align: center;
+}
+.aOne {
+    text-decoration: none;
+    position: relative;
+    /* top: ;
+    left: ; */
+}
+#language {
+    color: blue;
+    font-weight: bold;
+}
+#plus {
+    color: black;
+}
+#one {
+    color: red;
 }
