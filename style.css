@@ -17,23 +17,80 @@ section {
     font-size: 37px;
 }
 .round {
-    border: 1px solid blue;
     margin-top: 20px;
     text-align: center;
+    margin-bottom: -280px;
 }
-.aOne {
-    text-decoration: none;
+.img1 {
+    text-align: center;
     position: relative;
-    /* top: ;
-    left: ; */
+    top: 80px;
+}
+a {
+    text-decoration: none;
 }
 #language {
     color: blue;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 #plus {
     color: black;
 }
 #one {
-    color: red;
+    position: relative;
+    top: -170px;
+    left: -150px;
+}
+#two {
+    position: relative;
+    top: -150px;
+    left: -200px;
+}
+#three {
+    position: relative;
+    top: -120px;
+    left: -210px;
+}
+#four {
+    position: relative;
+    top: -100px;
+    left: -190px;
+}
+#five {
+    position: relative;
+    top: -80px;
+    left: -120px;
+}
+#six {
+    position: relative;
+    top: -410px;
+    left: 150px;
+}
+#seven {
+    position: relative;
+    top: -390px;
+    left: 200px;
+}
+#eight{
+    position: relative;
+    top: -370px;
+    left: 210px;
+}
+#nine {
+    position: relative;
+    top: -340px;
+    left: 160px;
+}
+#ten {
+    position: relative;
+    top: -320px;
+    left: 110px;
+}
+.input {
+    text-align: center;
+}
+input {
+    width: 35vw;
+    height: 6vh;
 }
