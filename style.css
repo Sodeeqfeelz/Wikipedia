@@ -1,13 +1,14 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 body {
     overflow-x: hidden;
 }
 section {
     border: 1px solid blue;
-    height: 100vh;
+    height: 166.5vh;
 }
 #head {
     text-align: center;
@@ -22,7 +23,7 @@ section {
 .round {
     margin-top: 20px;
     text-align: center;
-    margin-bottom: -290px;
+    margin-bottom: -297px;
 }
 .img1 {
     text-align: center;
@@ -94,18 +95,118 @@ a {
     left: 132px;
 }
 .input {
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 447px;
 }
 input {
-    border: 2px solid rgba(0, 0, 255, 0.63);
-    width: 33vw;
-    height: 6vh;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    width: 29vw;
+    height: 6.5vh;
+}
+#search {
+    border: 0px solid;
+    padding: 7.8px;
+    padding-right: 15px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    position: relative;
+    top: 6px;
+    left: -31px;
+    background-color: #0e58ec;
+}
+#imgSearch {
+    margin-left: 10px;
+}
+::placeholder {
+    position: relative;
+    left: 340px
+}
+#select1 {
+    position: relative;
+    left: -40px;
+    border: 0px solid;
+    color: rgba(0, 0, 0, 0.363);
 }
 .read {
-    text-align: center;
-    margin-top: 32px;
+    margin: 32px 10px 0px 10px;
     border-bottom: 1px solid #C8CCD1;
 }
-button {
-    margin-bottom: 50px;
+#button2 {
+    padding: 8px;
+    margin-left: 522px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+}
+#spanRead {
+    color: rgba(0, 0, 255, 0.74);
+    font-weight: bold;
+    font-size: 14px;
+}
+#select2 {
+    border: 0px;
+    color: rgba(0, 0, 255, 0.637);
+}
+#line1 {
+    color: rgba(0, 0, 0, 0.363);
+    position: relative;
+    top: -30px;
+    left: 445px;
+}
+#line2 {
+    color: rgba(0, 0, 0, 0.363);
+    position: relative;
+    top: -48px;
+    left: 800px;
+}
+.wiki {
+    display: flex;
+    border: 1px solid red;
+    border-bottom: 1px solid green;
+    height: 65vh;
+    padding-left: 75px;
+    font-family: sans-serif;
+    gap: 50px;
+}
+.wiki1 {
+    border: 1px solid blue;
+    margin-top: 40px;
+    width: 17vw;
+    height: 50vh;
+}
+#one1 {
+    height: 17vh;
+}
+#wikiW {
+    width: 21vw;
+    margin-right: 80px;
+}
+#para1 {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.541);
+    margin: 10px 0px 0px 0px;
+    position: relative;
+    top: -50px;
+    left: 50px;
+    line-height: 18px;
+}
+#href1 {
+    color: #3379D9;
+    font-weight: 100;
+}
+#imgVnd {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.452);
+    width: 45px;
+    border-radius: 3px;
+}
+#two2 {
+    height: 20vh;
+}
+#href2 {
+    font-size: 13.5px;
+    color: rgba(0, 0, 255, 0.74);
+    font-weight: bold;
+    line-height: 30px;
+}
+#image {
+    margin-left: 47px;
 }
